@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="winInfoPersonal" backgroundColor="white" layout="vertical" title="Info">
+		<ActionBar displayHomeAsUp="true" id="actionbar" platform="android" title="My XML Menu" subtitle="sub titulo" onHomeIconItemSelected="regresar" />
+		 <ScrollableView id="scrollableView" showPagingControl="true">
+            <View id="view1" backgroundColor="#123">
+               <Label>View 1</Label>
+            </View>
+            <View id="view2" backgroundColor="#246">
+             <Label>View 2</Label>
+             </View>
+            <View id="view3" backgroundColor="#48b">
+             <Label>View 3</Label>
+             </View>
+        </ScrollableView>
+	</Window>
+</Alloy>

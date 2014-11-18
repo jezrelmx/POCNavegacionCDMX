@@ -1,0 +1,22 @@
+<Alloy>	
+	<TabGroup id="tabG">
+		<Tab id="tab1" title="Home">
+			<Require type="view" src="home/tab1" id="tab1"></Require>
+		</Tab>
+		<Tab id="tab2" title="Tab 2">
+			<Window id="win2" title="Tab 2">
+				<Label id="label2">WINDOW 2</Label>		
+			</Window>
+		</Tab>
+		<Tab id="tab3" title="Tab 3">
+			<Window id="win3" title="Tab 3">
+				<Label id="label3">WINDOW 3</Label>		
+			</Window>
+		</Tab>
+		<Tab id="tabConfiguracion" title="Configuracion">
+			<Require type="view" src="configuracion/configuracion" id="tabConfiguracion"></Require>
+		</Tab>
+	</TabGroup>
+		
+	
+</Alloy>

@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="winConfiguracion" title="Configuracion">
+		<ListView id="list" onItemclick="abrirVentana">
+	        <ListSection>
+	            <ListItem title="List item 1"></ListItem>
+	            <ListItem title="List item 2"></ListItem>
+	            <ListItem title="List item 3"></ListItem>
+	        </ListSection>
+	    </ListView>			
+	</Window>
+</Alloy>

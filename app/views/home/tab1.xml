@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="win1" title="Home">
+		<Label id="label1">Aqui deberán de ir los mosaicos</Label>		
+	</Window>
+</Alloy>
