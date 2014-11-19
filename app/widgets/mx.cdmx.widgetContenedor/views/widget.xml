@@ -1,0 +1,5 @@
+<Alloy>
+	<View class="container">
+		<Label>Mi widget :)</Label>
+	</View>
+</Alloy>

@@ -7,5 +7,7 @@
 	"os:blackberry": {},
 	"os:ios": {},
 	"os:mobileweb": {},
-	"dependencies": {}
+	"dependencies": {
+		"mx.cdmx.widgetContenedor":"1.0"
+	}
 }
