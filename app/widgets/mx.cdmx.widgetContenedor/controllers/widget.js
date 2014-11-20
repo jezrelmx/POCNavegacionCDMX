@@ -101,6 +101,12 @@ var agregarMosaico = function() {
 	});
 	
 	frame2.addEventListener('click', function(e) {
+		var parametros = {
+			nombreWidget: "mx.cdmx.MiPolicia"
+		};
+		// var winAppEnte = Alloy.createController('appEnte', parametros).getView();
+		var appEnte = Alloy.createController('appEnte', parametros);
+		appEnte.miAppWidget();
 		console.log('Tocaste el frame 2');
 		
 	});
