@@ -1,13 +1,15 @@
 {
-	"global": {}, 
-	"env:development": {}, 
-	"env:test": {}, 
-	"env:production": {}, 
-	"os:android": {},
-	"os:blackberry": {},
-	"os:ios": {},
-	"os:mobileweb": {},
-	"dependencies": {
-		"mx.cdmx.widgetContenedor":"1.0"
-	}
+    "global": {},
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "dependencies": {
+        "mx.cdmx.widgetContenedor": "1.0",
+        "com.prodz.tiflexigrid": "1.2",
+        "mx.cdmx.widgetMiPolicia": "1.0"
+    }
 }

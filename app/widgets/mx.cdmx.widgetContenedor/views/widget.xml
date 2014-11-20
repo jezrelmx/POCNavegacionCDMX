@@ -1,5 +1,9 @@
 <Alloy>
-	<View class="container">
-		<Label>Mi widget :)</Label>
+	<View id="mainMosaico">
+		<View id="contenedorMosaico">
+			<ScrollView id="scrollViewMosaico">
+
+			</ScrollView>
+		</View>	
 	</View>
 </Alloy>

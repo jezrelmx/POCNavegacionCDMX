@@ -2,3 +2,8 @@
 ".container" : {
   
 }
+
+"#win1": {
+	layout: 'vertical',
+	backgroundColor: 'white'
+}

@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="contenedor">
+		<View zIndex="50" id="cabecera" onClick="abrirCabecera">
+			<Label>Item</Label>
+		</View>
+		<View id="pie" onClick="abrirPie">
+			<Label>Item</Label>
+		</View>	
+	</View>
+</Alloy>

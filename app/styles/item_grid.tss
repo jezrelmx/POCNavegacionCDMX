@@ -1,0 +1,14 @@
+"#contenedor" : {
+	height: '100%',
+	layout: 'vertical'
+}
+
+"#cabecera" : {
+	backgroundColor: 'red',
+	height:'70%'
+}
+
+"#pie" : {
+	backgroundColor: 'blue',
+	height:'30%' 
+}

@@ -1,20 +1,19 @@
-"#mainMosaico": {
-	backgroundColor: 'transparent',
+"#fgMain": {
+	backgroundColor: '#fff',
 	height: Ti.UI.FILL,
 	width: Ti.UI.FILL
 },
-"#contenedorMosaico":{
+"#fgWrapper":{
 	width:Ti.UI.FILL,
 	height:Ti.UI.FILL,
-	backgroundColor:'#FFFFFF'
+	backgroundColor:'transparent'
 },
-"#scrollViewMosaico":{
+"#fgScrollView":{
 	width: Ti.UI.FILL,
 	height:Ti.UI.FILL,
 	contentHeight: Ti.UI.SIZE,
 	contentWidth: Ti.UI.FILL,
 	layout:'horizontal',
-	opacity:'0.4',
-	backgroundColor:'#FFFFFF',
+	backgroundColor:'transparent',
 	scrollType:'vertical'
 }

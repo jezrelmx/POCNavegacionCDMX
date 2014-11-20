@@ -1,11 +1,14 @@
 <Alloy>	
 	<TabGroup id="tabG">
 		<Tab id="tab1" title="Home">
-			<Require type="view" src="home/tab1" id="tab1"></Require>
+			<Window id="win1" title="Home" >
+				<Require type="widget" src="mx.cdmx.widgetContenedor" id="widgetContenedor" />
+			</Window>
 		</Tab>
 		<Tab id="tab2" title="Tab 2">
 			<Window id="win2" title="Tab 2">
-				<Label id="label2">WINDOW 2</Label>		
+				<Label id="label2">WINDOW 2</Label>
+        		<Require type="widget" src="com.prodz.tiflexigrid" id="fg"/>						
 			</Window>
 		</Tab>
 		<Tab id="tab3" title="Tab 3">

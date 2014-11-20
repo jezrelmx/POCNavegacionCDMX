@@ -1,6 +1,5 @@
 <Alloy>
-	<Window id="win1" title="Home" layout="vertical">
-		<Label id="label1">Aqui deberán de ir los mosaicos</Label>
-		<Require type="widget" src="mx.cdmx.widgetContenedor" />
+	<Window id="win1" title="Home" >
+		<!-- <Require type="widget" src="mx.cdmx.widgetContenedor" /> -->
 	</Window>
 </Alloy>
