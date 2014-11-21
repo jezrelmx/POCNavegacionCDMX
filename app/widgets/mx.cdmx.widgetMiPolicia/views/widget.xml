@@ -1,5 +1,5 @@
 <Alloy>
 	<View id="contenedor">
-		<Label>I'm the default widget</Label>	
+		<Label>Bienvenido Mi Policía</Label>	
 	</View>
 </Alloy>

@@ -65,21 +65,11 @@ var agregarMosaico = function() {
 		var moduloSSAC = require('ssac/ssac');
 		var winSSAC = moduloSSAC.inicioSSAC();
 		if (OS_IOS) {
-			// var lbBienvenido = Ti.UI.createLabel({
-				// text:'Bienvenido al SSAC desde un modulo CommonJS en iOS'
-			// });
-			// winSSAC.add(lbBienvenido);
 			var pantallaPrincipal = Alloy.createController("index").getView();
 			var aux = ((pantallaPrincipal.tabs)[0]);
-			// console.log('pantallaPrincipal ' + JSON.stringify(aux));
-			// console.log('detalleFugitivoVista' + detalleFugitivoVista);
 			aux.open(winSSAC);	
 		};
 		if (OS_ANDROID) {
-			// var lbBienvenido = Ti.UI.createLabel({
-				// text:'Bienvenido al SSAC desde un modulo CommonJS en Android'
-			// });
-			// winSSAC.add(lbBienvenido);
 			winSSAC.open();
 		};
 	});
@@ -102,11 +92,24 @@ var agregarMosaico = function() {
 	
 	frame2.addEventListener('click', function(e) {
 		var parametros = {
-			nombreWidget: "mx.cdmx.MiPolicia"
+			nombreWidget: "mx.cdmx.widgetAGUMovil"
 		};
-		// var winAppEnte = Alloy.createController('appEnte', parametros).getView();
+		// var parametros = {
+			// nombreWidget: "mx.cdmx.widgetMiPolicia"
+		// };
 		var appEnte = Alloy.createController('appEnte', parametros);
-		appEnte.miAppWidget();
+		var winAppEnte = appEnte.miAppWidget();
+		if (OS_IOS) {
+			var pantallaPrincipal = Alloy.createController("index").getView();
+			var aux = ((pantallaPrincipal.tabs)[0]);
+			aux.open(winAppEnte);	
+		};
+		if (OS_ANDROID) {
+			winAppEnte.open();
+		};
+		
+		
+		winAppEnte.open();
 		console.log('Tocaste el frame 2');
 		
 	});
@@ -122,6 +125,27 @@ var agregarMosaico = function() {
 		borderColor:'#000000',
 		borderRadius:'0',
 		borderWidth:'0'
+	});
+	
+	frame3.addEventListener('click', function(e) {
+		var parametros = {
+			nombreWidget: "mx.cdmx.widgetMiPolicia"
+		};
+		var appEnte = Alloy.createController('appEnte', parametros);
+		var winAppEnte = appEnte.miAppWidget();
+		if (OS_IOS) {
+			var pantallaPrincipal = Alloy.createController("index").getView();
+			var aux = ((pantallaPrincipal.tabs)[0]);
+			aux.open(winAppEnte);	
+		};
+		if (OS_ANDROID) {
+			winAppEnte.open();
+		};
+		
+		
+		// winAppEnte.open();
+		console.log('Tocaste el frame 2');
+		
 	});
 	
 	var frame4 = Ti.UI.createView({

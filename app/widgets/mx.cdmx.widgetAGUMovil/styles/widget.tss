@@ -1,6 +1,6 @@
 "#contenedor": {
-	backgroundColor: '#FFFFFF',
-		
+	backgroundColor: 'red',
+	layout: 'vertical'
 }
 
 "Label": {

@@ -4,9 +4,10 @@ var args = arguments[0] || {};
 
 var miAppWidget = function() {
 	console.log('parametros --------------------- ' + JSON.stringify(args));
-	var miWidget = Alloy.createWidget("mx.cdmx.widgetMiPolicia");
+	var miWidget = Alloy.createWidget(args.nombreWidget);
 	$.winAppWidget.add(miWidget.getView());
-	$.winAppWidget.open();
+	return $.winAppWidget;
+	// $.winAppWidget.open();
 };
 
 exports.miAppWidget = miAppWidget;

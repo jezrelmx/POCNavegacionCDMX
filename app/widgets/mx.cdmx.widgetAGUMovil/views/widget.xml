@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="contenedor">
+		<Label>Bienvenido a AGU Móvil</Label>
+		<Button id="btnAbrirVentana" onClick="abrirVentana">Abrir ventana</Button>
+	</View>
+</Alloy>

@@ -10,6 +10,7 @@
     "dependencies": {
         "mx.cdmx.widgetContenedor": "1.0",
         "com.prodz.tiflexigrid": "1.2",
-        "mx.cdmx.widgetMiPolicia": "1.0"
+        "mx.cdmx.widgetMiPolicia": "1.0",
+        "mx.cdmx.widgetAGUMovil": "1.0"
     }
 }
